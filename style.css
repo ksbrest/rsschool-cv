@@ -32,29 +32,30 @@ body {
     .header-logo-nav {
       display: flex;
       justify-content: space-between;
+      align-items: center;
       font-size: 30px;
       font-weight: 700;
       color: blue;   
     }
     
     .school-logo {
-      font-size: 150%;
-      font-weight: 200%;
-      color: blue;   
+     font-size: 200%;
       }
 
       /* Nav */
     .header-nav {
       font-size: 70%;
       text-transform: uppercase;
-      font-weight: 300%;
+      
       
     }
 
     .nav{
+      display: inline-block;
+      vertical-align: top;
       color: blue;  
       text-decoration: none;
-      margin: 20;
+      margin: 0 20px;
     }
 
     /* intro */
