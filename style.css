@@ -6,7 +6,9 @@ body {
   color:#333;
   line-height: 1.6;
   }
-    * {
+  *::after,
+  *::before,  
+  * {
     box-sizing: border-box;
   }
   h1, h2, h3, h4, h5, h6{
@@ -18,6 +20,28 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     }
+
+/* intro */
+
+    .intro{
+      width:100%;
+      height: 250px;
+      background-color: rgb(190, 250, 240);
+      background-size: cover;
+    }
+
+    .intro {
+      display: flex;
+      align-items: flex-end;
+         }
+
+     .intro-title {
+      font-size: 300%;
+      font-weight: 700;
+      text-align:left;
+    } 
+
+
 
     /* Header */ 
     .header {
@@ -35,17 +59,19 @@ body {
       align-items: center;
       font-size: 30px;
       font-weight: 700;
-      color: blue;   
+      
     }
     
     .school-logo {
      font-size: 200%;
+     
       }
+    
 
       /* Nav */
     .header-nav {
-      font-size: 70%;
-      text-transform: uppercase;
+      font-size: 120%;
+      text-transform: capitalize;
       
       
     }
@@ -56,14 +82,12 @@ body {
       color: blue;  
       text-decoration: none;
       margin: 0 20px;
+      transition: color 0.2s linear;
+      
     }
 
-    /* intro */
-    .intro{
-      width:100%;
-      height: 100vh;
-      background-color: rgb(190, 250, 240);
-      background-size: cover;
+    .nav:hover {
+      color: rgb(221, 11, 53);
     }
 
 
