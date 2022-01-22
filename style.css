@@ -1,10 +1,14 @@
+html {
+  scroll-behavior: smooth; 
+}
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-family: 'The Nautigal', cursive;
   font-size: 30px;
-  color:#333;
   line-height: 1.6;
+  color:#333;
   }
   *::after,
   *::before,  
@@ -17,7 +21,7 @@ body {
   /* Container */
     .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
     }
 
