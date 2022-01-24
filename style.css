@@ -95,7 +95,7 @@ body {
     .photo-about-section{
       width: 100%;
       top: 0;
-      left: 20px;;
+      left: 40px;
       right: 20px;
       
     }
@@ -110,7 +110,7 @@ body {
     .photo{
       border-radius: 150px; /* Радиус скругления */
       border: 3px solid rgb(8, 37, 8); /* Параметры рамки */
-      box-shadow: 0 0 7px #666; /
+      box-shadow: 0 0 7px #666;
       margin: 30px;
       
     }
