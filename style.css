@@ -160,7 +160,7 @@ body {
   }
 
 #my-contact-details{
-  color: blue;
+  color: #0000ff;
   text-align: center;
 }
 
@@ -170,10 +170,17 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0;
+  width: 95;
+  background-color: #86c5df;
   }
   
 #rsschool{
  width: 10%;
+ }
+
+ 
+ #line{
+   margin: 0;
  }
 
 
