@@ -3,12 +3,14 @@ html {
 }
 
 body {
-  margin: 0;
   font-family: 'Roboto', sans-serif;
   font-family: 'The Nautigal', cursive;
   font-size: 30px;
   line-height: 1.6;
+  min-height: 100vh;
   color:#333;
+  margin: 0;
+  padding: 0;
   }
   *::after,
   *::before,  
@@ -69,6 +71,7 @@ body {
     .school-logo {
      font-size: 200%;
      color: blue;
+     text-decoration: none;
      }
     
       /* Nav */
@@ -160,6 +163,18 @@ body {
   color: blue;
   text-align: center;
 }
+
+/* footer */
+.footer-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  }
+  
+#rsschool{
+ width: 10%;
+ }
 
 
   
